@@ -1,0 +1,213 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Main Content Styles */
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+section {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+/* Horizontal Line Styles */
+hr {
+  border: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+/* Flexbox Styles */
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.group-reverse {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.group-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.group-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-gap {
+  gap: 0;
+}
+
+/* Reservation and Table Styles */
+.reservation, .table {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Typography Styles */
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+/* Link Styles */
+a {
+  color: #0074e4;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0050b2;
+}
+
+/* Alert Styles */
+.alert {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #ff4040;
+  margin: 1rem 0;
+}
+
+/* Form Styles */
+form label {
+  display: block;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+form select {
+  appearance: none;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 900px) {
+  section {
+    padding: 2rem;
+  }
+
+  nav ul li {
+    margin: 0 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+}

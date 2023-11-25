@@ -1,0 +1,7 @@
+.side-bar {
+  background-color: #333;
+  min-width: 220px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
